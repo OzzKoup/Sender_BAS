@@ -625,11 +625,6 @@
             })!
             section_end()!
 
-            section_start("", 822795913)!
-            /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6ItCj0YHRgtCw0L3QvtCy0LvQtdC90L3QvtC1INC60L7Qu9C40YfQtdGB0YLQstC+INC40L3QstCw0LnRgtC+0LI6IFtbR0xPQkFMOkNIQU5HSU5HX0FNT1VOVF9PRl9JTlZJVEVTXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
-            log("Установленное количество инвайтов: " + JSON.parse(P("basglobal", "CHANGING_AMOUNT_OF_INVITES") || '""'))
-            section_end()!
-
             section_start("", 60750761)!
             /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
             _call(function()
@@ -867,7 +862,7 @@
      <CopySilent>false</CopySilent>
      <IsEnginesInAppData>true</IsEnginesInAppData>
      <CompileType>PrivateScriptEnterPassForUser</CompileType>
-     <ScriptVersion>2.1.0</ScriptVersion>
+     <ScriptVersion>2.2.0</ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
      <EngineVersion>22.2.2</EngineVersion>
      <SettingsWorker>EnableFlash=false
