@@ -545,59 +545,6 @@
 
    _call(_on_start, null)!
 
-   section_start("", 378580505)!
-   /*Dat:eyJzIjoiYnJvd3NlcnNldHRpbmdzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZsYXNoIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJXZWJydGMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IldlYnJ0Y0lwcyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2FudmFzIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDYW52YXNOb2lzZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiV2ViZ2wiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IldlYmdsTm9pc2UiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IldlYmdsVmVuZG9yIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJXZWJnbFJlbmRlcmVyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJBdWRpbyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQXVkaW9Ob2lzZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUHJveHlUdW5uZWxpbmciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlNraXBGcmFtZXMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoiRXh0ZW5zaW9ucyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifV19*/
-   /*Browser*/
-   var Params = {};
-   var ProxyTunneling = ("");
-   var Flash = ("");
-   var SkipFrames = (10);
-   var Extensions = ("");
-   var Webrtc = ("");
-   var WebrtcIps = ("").split(/\r?\n/).filter(function(x){return x && x.length > 0}).map(function(x){return x.replace(/\s/g, '')}).join(";");
-   var Canvas = ("");
-   var CanvasNoise = ("");
-   var Audio = ("");
-   var AudioNoise = ("");
-   var Webgl = ("");
-   var WebglNoise = ("");
-   var WebglVendor = ("");
-   var WebglRenderer = ("");
-   if(Flash.length > 0)
-   Params["UseFlash"] = Flash == "enable"
-   if(Webrtc.length > 0)
-   Params["Webrtc"] = Webrtc
-   if(Canvas.length > 0)
-   Params["Canvas"] = Canvas
-   if(CanvasNoise.length > 0)
-   Params["CanvasNoise"] = CanvasNoise
-   if(Audio.length > 0)
-   Params["Audio"] = Audio
-   if(AudioNoise.length > 0)
-   Params["AudioNoise"] = AudioNoise
-   if(Webgl.length > 0)
-   Params["Webgl"] = Webgl
-   if(WebglNoise.length > 0)
-   Params["WebglNoise"] = WebglNoise
-   if(WebglVendor.length > 0)
-   Params["Webgl.unmaskedVendor"] = WebglVendor
-   if(WebglRenderer.length > 0)
-   Params["Webgl.unmaskedRenderer"] = WebglRenderer
-   if(ProxyTunneling.length > 0)
-   Params["ProxyTunneling"] = ProxyTunneling == "true"
-   if(SkipFrames !== 0)
-   Params["SkipFrames"] = SkipFrames
-   if(Extensions.length > 0)
-   Params["Extensions"] = Extensions
-   if(Extensions == "Clear")
-   Params["Extensions"] = ""
-   if(WebrtcIps.length > 0)
-   Params["WebrtcIps"] = WebrtcIps
-   if(WebrtcIps == "Clear")
-   Params["WebrtcIps"] = ""
-   _settings(Params)!
-   section_end()!
-
    section_start("", 361980988)!
    /*Dat:eyJzIjoicmVxdWVzdG1hc2tkZW55IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIqLmpwZyIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
    request_deny("*.jpg")!
@@ -684,8 +631,8 @@
    section_end()!
 
    section_start("", 514369393)!
-   /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlZlcnNpb24gOiAxLjQgKDI4LjEyLjIwMTkpIFVwZGF0ZWQgdmVyc2lvbiIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
-   log("Version : 1.4 (28.12.2019) Updated version")
+   /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IlZlcnNpb24gOiAxLjYgKDA2LjAxLjIwMjApIFVwZGF0ZWQgdmVyc2lvbiIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+   log("Version : 1.6 (06.01.2020) Updated version")
    section_end()!
 
    section_start("", 592170913)!
@@ -928,9 +875,10 @@
    section_end()!
 
    section_start("", 616274752)!
-   /*Dat:eyJzIjoiY2xpY2siLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ2xpY2tYIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI5MiIsImNsYXNzIjoiaW50In0seyJpZCI6IkNsaWNrWSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiOTAiLCJjbGFzcyI6ImludCJ9XX0=*/
+   /*Dat:eyJzIjoiY2xpY2siLCJ2IjoxLCJmIjpbXSwidXciOiIxIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ2xpY2tYIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI5MiIsImNsYXNzIjoiaW50In0seyJpZCI6IkNsaWNrWSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiOTAiLCJjbGFzcyI6ImludCJ9XX0=*/
    /*Browser*/
    mouse(92,90)!
+   wait_async_load()!
    section_end()!
 
    section_start("", 671055222)!
@@ -1208,12 +1156,6 @@
    wait_async_load()!
    section_end()!
 
-   section_start("", 223608727)!
-   /*Dat:eyJzIjoiY2xpY2siLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ2xpY2tYIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDMiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJDbGlja1kiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjI4OSIsImNsYXNzIjoiaW50In1dfQ==*/
-   /*Browser*/
-   mouse(103,289)!
-   section_end()!
-
    section_start("", 481432762)!
    /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJEYWZhdWx0X2Jvb2ttYXJrIn0seyJpZCI6IlNldFZhcmlhYmxlVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ijxzdmc+PHVzZSB4bGluazpocmVmPVwiL3Nwcml0ZS5zdmcjYm9va21hcmtBY3RpdmU+PC91c2U+PC9zdmc+IiwiY2xhc3MiOiJzdHJpbmcifV19*/
    VAR_DAFAULT_BOOKMARK = "\u003csvg\u003e\u003cuse xlink:href=\u0022/sprite.svg#bookmarkActive\u003e\u003c/use\u003e\u003c/svg\u003e"
@@ -1386,30 +1328,12 @@
                   log("ДОЕБИТЕ БУКМАРКОВ, ПРИЛОЖЕНИЮ ТЯЖЕЛО!")
                   section_end()!
 
-               })!
-               section_end()!
-
-               section_start("", 444497736)!
-               /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0NPVU5URVJfT0ZfU0NST0xMSU5HX0FGVEVSX0JPT0tNQVJLX0RFVEVDVElOR11dID09IDUiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
-               _if(VAR_COUNTER_OF_SCROLLING_AFTER_BOOKMARK_DETECTING == 5,function(){
-               section_insert()
-                  section_start("", 99560942)!
+                  section_start("", 163246746)!
                   /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJDT1VOVEVSX09GX1NDUk9MTElOR19BRlRFUl9CT09LTUFSS19ERVRFQ1RJTkcifSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMCIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
                   VAR_COUNTER_OF_SCROLLING_AFTER_BOOKMARK_DETECTING = "0"
                   section_end()!
 
-                  section_start("", 765008895)!
-                  /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6IlJlZnJlc2hNZW5MaXN0In1dfQ==*/
-                  _call_function(RefreshMenList,{})!
-                  _result_function()
-                  section_end()!
-
                })!
-               section_end()!
-
-               section_start("", 387238727)!
-               /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbE5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJsYWJlbCBuYW1lIDU5NTkifV19*/
-               _long_goto("label name 5959", -1, [])!
                section_end()!
 
             })!
@@ -1522,18 +1446,18 @@
      <CopySilent>false</CopySilent>
      <IsEnginesInAppData>true</IsEnginesInAppData>
      <CompileType>PrivateScriptEnterPassForUser</CompileType>
-     <ScriptVersion>2.26.0</ScriptVersion>
+     <ScriptVersion>2.31.0</ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
      <EngineVersion>22.3.0</EngineVersion>
      <SettingsWorker>EnableFlash=false
 ProxiesReconnect=false
 ForceUtf8=true
-SkipFrames=1
-ToolboxHeight=698
+SkipFrames=10
+ToolboxHeight=431
 MaxBrowserStartSimultaneously=1
 MinFreeMemoryToStartBrowser=500
 MinUnusedCpu=0
-ScenarioWidth=836
+ScenarioWidth=876
 Zoom=100
 IsMaximized=false
 Restart=true
@@ -1564,15 +1488,15 @@ Detector=true
     &quot;Multilogin&quot;: false
 }
 </ModulesMetaJson>
-     <OutputTitle1 en="First Results" ru="First Results"/>
-     <OutputTitle2 en="Second Results" ru="Second Results"/>
-     <OutputTitle3 en="Third Results" ru="Third Results"/>
-     <OutputTitle4 en="Fourth Results" ru="Fourth Results"/>
-     <OutputTitle5 en="Fifth Results" ru="Fifth Results"/>
-     <OutputTitle6 en="Sixth Results" ru="Sixth Results"/>
-     <OutputTitle7 en="Seventh Results" ru="Seventh Results"/>
-     <OutputTitle8 en="Eighth Results" ru="Eighth Results"/>
-     <OutputTitle9 en="Ninth Results" ru="Ninth Results"/>
+     <OutputTitle1 ru="First Results" en="First Results"/>
+     <OutputTitle2 ru="Second Results" en="Second Results"/>
+     <OutputTitle3 ru="Third Results" en="Third Results"/>
+     <OutputTitle4 ru="Fourth Results" en="Fourth Results"/>
+     <OutputTitle5 ru="Fifth Results" en="Fifth Results"/>
+     <OutputTitle6 ru="Sixth Results" en="Sixth Results"/>
+     <OutputTitle7 ru="Seventh Results" en="Seventh Results"/>
+     <OutputTitle8 ru="Eighth Results" en="Eighth Results"/>
+     <OutputTitle9 ru="Ninth Results" en="Ninth Results"/>
      <OutputVisible1>1</OutputVisible1>
      <OutputVisible2>1</OutputVisible2>
      <OutputVisible3>1</OutputVisible3>
@@ -1585,8 +1509,8 @@ Detector=true
      <ModelList>
           <Model>
                <Name>Invites</Name>
-               <Description en="Invites" ru="Invites"/>
-               <SectionName en="" ru=""/>
+               <Description ru="Invites" en="Invites"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>LinesFromFile</Type>
@@ -1609,8 +1533,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>Login</Name>
-               <Description en="Login" ru="Login"/>
-               <SectionName en="" ru=""/>
+               <Description ru="Login" en="Login"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -1624,8 +1548,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>Password</Name>
-               <Description en="Password" ru="Password"/>
-               <SectionName en="" ru=""/>
+               <Description ru="Password" en="Password"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -1639,8 +1563,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>Amout of invites</Name>
-               <Description en="Amout of invites" ru="Количество отправки 1 инвайта в шт"/>
-               <SectionName en="" ru=""/>
+               <Description ru="Количество отправки 1 инвайта в шт" en="Amout of invites"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
@@ -1654,8 +1578,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>Speed Limit</Name>
-               <Description en="Speed Limit" ru="Speed Limit"/>
-               <SectionName en="" ru=""/>
+               <Description ru="Speed Limit" en="Speed Limit"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
@@ -1670,8 +1594,8 @@ Detector=true
           <Defaults/>
           <Model>
                <Name>Рассылать на вторую анкету</Name>
-               <Description en="Рассылать на вторую анкету" ru="Рассылать на вторую анкету"/>
-               <SectionName en="" ru=""/>
+               <Description ru="Рассылать на вторую анкету" en="Рассылать на вторую анкету"/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
